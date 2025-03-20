@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 :root {
 
@@ -12,4 +13,52 @@
   --middle: #303030;
   --light: white;
   --middle-light: #797979;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: var(--light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  .logo img {
+    height: 80px;
+  }
+
+  .menu-nav {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    a {
+      color: var(--middle);
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+.main {
+
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  justify-content: flex-start;
 }
