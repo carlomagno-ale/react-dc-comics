@@ -66,4 +66,12 @@ body {
   color: var(--light);
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  min-height: 20vh;
+
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
