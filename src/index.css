@@ -64,7 +64,7 @@ body {
 
     a:hover {
       color: var(--primary);
-      border-bottom-color: #007bff;
+      border-bottom-color: var(--primary);
     }
   }
 }
@@ -133,6 +133,8 @@ body {
   background-color: var(--middle);
 }
 
+/*FOOTER TOP*/
+
 .footer-top {
   background-image: url('/img/footer-bg.jpg');
   background-size: cover;
@@ -161,7 +163,6 @@ body {
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
-
 }
 
 .footer-section {
@@ -196,5 +197,53 @@ body {
   li {
     margin-bottom: 0.3rem;
     font-size: 0.8rem;
+  }
+}
+
+/*FOOTER BOTTOM*/
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.sign-up-btn {
+  background-color: transparent;
+  border: 0.2rem solid var(--primary);
+  color: var(--light);
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sign-up-btn:hover {
+  color: var(--primary);
+  border: 0.2rem solid var(--light);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  span {
+    color: var(--primary);
+    font-weight: bold;
+  }
+
+  a {
+    margin-left: 0.8rem;
+
+    img {
+      width: 2rem;
+    }
   }
 }

@@ -48,11 +48,9 @@ export default function Footer() {
                     </div>
                     <div className="overlay-logo"></div>
                 </div>
-
-
             </div>
             <div className="footer-bottom">
-                <button className="sign-up-button">SIGN-UP NOW!</button>
+                <button className="sign-up-btn">SIGN-UP NOW!</button>
                 <div className="social-icons">
                     <span>FOLLOW US</span>
                     <a href="#"><img src='/img/footer-facebook.png' alt="facebook" /></a>
