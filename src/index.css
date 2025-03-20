@@ -1,4 +1,9 @@
+/*FONT*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*COMMON*/
 
 * {
   margin: 0;
@@ -6,6 +11,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/*COLORS*/
 :root {
 
   --primary: #0282f9;
@@ -15,10 +25,8 @@
   --middle-light: #797979;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
 
+/*HEADER*/
 .header {
   background-color: var(--light);
   display: flex;
@@ -60,6 +68,7 @@ body {
   }
 }
 
+/*MAIN*/
 .main {
 
   background-color: var(--dark);
@@ -76,7 +85,48 @@ body {
   }
 }
 
-
+/*ICONS NAV*/
 .menu-icons {
   background-color: var(--primary);
+  color: var(--light);
+
+
+  ul {
+
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-block: 2rem;
+
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--light);
+  }
+
+  a:hover {
+    color: var(--middle);
+  }
+
+  img {
+    height: 2rem;
+  }
+
+  .special-icon {
+    width: 2rem;
+  }
+
+  .icon-text {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
 }
+
+/*FOOTER*/
