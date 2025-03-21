@@ -86,6 +86,19 @@ body {
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2);
+  padding: 1rem;
+
+}
+
+
 /*ICONS NAV*/
 .menu-icons {
   background-color: var(--primary);
