@@ -1,4 +1,5 @@
-import menuLinks from "../data/mainMenu"
+
+import Nav from "./Nav"
 
 export default function Header() {
 
@@ -15,18 +16,3 @@ export default function Header() {
     );
 }
 
-function Nav() {
-
-    return (
-        <nav className="menu-nav">
-            <ul>
-                {menuLinks.map(link => (
-                    <li key={link.id}>
-                        <a href={link.url}>{link.name}</a>
-                    </li>
-                ))}
-            </ul>
-        </nav>
-    )
-
-}
