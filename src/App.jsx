@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Header menuLinks={menuLinks} />
+      <Header />
       <Main />
       <IconsNav />
       <Footer />
@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App
+
