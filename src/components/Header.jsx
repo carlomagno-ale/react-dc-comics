@@ -1,12 +1,13 @@
+/*import menuLinks from "../data/mainMenu";*/
 import Logo from "./Logo"
 import Nav from "./Nav"
 
-export default function Header() {
+export default function Header({ menuLinks }) {
 
     return (
         <header className="header">
             <Logo />
-            <Nav />
+            <Nav menuLinks={menuLinks} />
         </header>
     );
 }

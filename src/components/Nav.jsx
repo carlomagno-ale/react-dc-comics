@@ -1,6 +1,6 @@
-import menuLinks from "../data/mainMenu"
+/*import menuLinks from "../data/mainMenu"*/
 
-export default function Nav() {
+export default function Nav({ menuLinks }) {
 
     return (
         <nav className="menu-nav">
@@ -15,3 +15,4 @@ export default function Nav() {
     )
 
 }
+

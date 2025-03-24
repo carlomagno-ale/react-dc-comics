@@ -9,5 +9,4 @@ export default function Card({ image, title }) {
             </div>
         </div>
     )
-
 }
