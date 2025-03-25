@@ -1,10 +1,12 @@
 import ComicsList from "./ComicsList"
 
-export default function Main() {
+export default function Main({ comics }) {
+
+    console.log(comics)
 
     return (
         <main className="main">
-            <ComicsList />
+            <ComicsList comics={comics} />
         </main>
     )
 }

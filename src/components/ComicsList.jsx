@@ -1,7 +1,9 @@
 import Card from './Card/Card.jsx';
-import comics from '../data/comics.js';
+/*import comics from '../data/comics.js';*/
 
-export default function ComicsList() {
+export default function ComicsList({ comics }) {
+
+    console.log(comics)
 
     return (
         <section>
